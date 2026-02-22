@@ -1,0 +1,37 @@
+{
+    "users": [
+        {
+            "name": "Person A",
+            "userName": "Username A",
+            "password": "Password A",
+            "sessions": []
+        },
+        {
+            "name": "Person B",
+            "userName": "Username B",
+            "password": "Password B",
+            "sessions": [
+                {
+                    "sessionName": "TPS",
+                    "solves": []
+                }
+            ]
+        },
+        {
+            "name": "Person C",
+            "userName": "Username C",
+            "password": "Password C",
+            "sessions": [
+                {
+                    "sessionName": "Standard",
+                    "solves": [
+                        {
+                            "time": 9.8,
+                            "scramble": "R U R' U'"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
