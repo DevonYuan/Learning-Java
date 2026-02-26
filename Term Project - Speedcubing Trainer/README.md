@@ -1,3 +1,6 @@
+# NOTE
+This is completed up to phase 2. It is a work in progress. 
+
 # Project Idea 
 For context, a speedcuber is a person who practices solving a Rubik's cube as fast as possible. My idea is to make a training app for speedcubers, to help accelerate their improvement. To do this, I plan on creating an application that allows the user to randomly generate a sufficiently difficult scramble, an record their solve times. I also plan on adding additional features that will benefit the user: 
 - A mini search engine: By processing strings and referencing a pre-existing set of data, the user can look for the relevant resources, whether it is websites, or YouTube videos that contain guides on a skill they are trying to improve, such as developing their turning speed, or improving their recognition speed for different patterns. 
@@ -52,4 +55,5 @@ It would be logical to assume that without data persistence, there is no need to
 By "session averages," I mean more than just the mean of all the times. While doing long sessions, cubers also track their current average of 5 (ao5 for short), and current average of 12 (ao12 for short), or the averages of the 5 and 12 most recent solves respectively. It is a convention in speedcubing to have the fastest and slowest times dropped in the computation of both these averages. In other words, the ao5 is the mean of the middle 3 solves out of the 5 most recent times, and the ao12 is the mean of the middle 10 solves out of the 12 most recent times. 
 
 Also: An "inspection timer" refers to a timer that starts before the user begins timing their. In standardized competition, a user is given 15 seconds to inspect the cube and plan as many steps into the solve as possible. 
+
 </details>
