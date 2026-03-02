@@ -52,4 +52,8 @@ It would be logical to assume that without data persistence, there is no need to
 By "session averages," I mean more than just the mean of all the times. While doing long sessions, cubers also track their current average of 5 (ao5 for short), and current average of 12 (ao12 for short), or the averages of the 5 and 12 most recent solves respectively. It is a convention in speedcubing to have the fastest and slowest times dropped in the computation of both these averages. In other words, the ao5 is the mean of the middle 3 solves out of the 5 most recent times, and the ao12 is the mean of the middle 10 solves out of the 12 most recent times. 
 
 Also: An "inspection timer" refers to a timer that starts before the user begins timing their. In standardized competition, a user is given 15 seconds to inspect the cube and plan as many steps into the solve as possible. 
+
 </details>
+
+# NOTE
+As of now, the project is currently completed up to Phase 2: Data persistence
